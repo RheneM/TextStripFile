@@ -1,18 +1,18 @@
-1. Initialize input and output file strings.
-2. Execute 'createFile()' method.
-3. Output file 'Debit_Cards.txt' is created.
-4. Execute 'readFile()' method.
-5. Create an object to reference the input file.
-6. Create an object to reference the output file.
-7. Use the object to read the input file from the network drive.
-8. Start a loop that reads the text file line by line.
-9. Stores each line into a string variable 'data'.
-10. Split the line into 2 with the first space character found in the line. Each line has a date in the beginning and
+Initialize input and output file strings.
+Execute 'createFile()' method.
+Output file 'Debit_Cards.txt' is created.
+Execute 'readFile()' method.
+Create an object to reference the input file.
+Create an object to reference the output file.
+Use the object to read the input file from the network drive.
+Start a loop that reads the text file line by line.
+Stores each line into a string variable 'data'.
+Split the line into 2 with the first space character found in the line. Each line has a date in the beginning and
     is separated by a space. Thus, isolating the date in each line.
-11. Store the date in a string variable 'dateInString'.
-12. Initialize string variables 'fromDate' and 'toDate' to serve from-to date range.
-13. Convert these string date variables to actual date variables using date patter 'M/d/yyyy'.
-14. Select date range in the conditional if statement.
-15. Logic will look for the text "Not Needed into succeeded" and the specific BINs.
-16. Store the second part of the string date to 'pan'.
-17. From the 'pan', strip the card number by using substring and write it to the output file.
+Store the date in a string variable 'dateInString'.
+Initialize string variables 'fromDate' and 'toDate' to serve from-to date range.
+Convert these string date variables to actual date variables using date patter 'M/d/yyyy'.
+Select date range in the conditional if statement.
+Logic will look for the text "Not Needed into succeeded" and the specific BINs.
+Store the second part of the string date to 'pan'.
+From the 'pan', strip the card number by using substring and write it to the output file.
